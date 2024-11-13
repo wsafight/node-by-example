@@ -4,7 +4,9 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://wsafight.github.io",
   base: "/node-by-example/",
+  outDir: "docs",
   integrations: [
     starlight({
       title: "通过例子学 node",
